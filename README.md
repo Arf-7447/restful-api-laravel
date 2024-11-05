@@ -70,4 +70,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - Run command "composer install ", "npm Install" 
 - Run command "cp .env.example .env" and "php artisan key:generate" then configure env ( your database name, app_url & filesystem_disk)
 - Last step, run command "php artisan migrate --seed" & start app with "php artisan serve"
+
+==============================================================
+- GET /api/students - Gets all student data
+- POST /api/students - Adds new student data
+- GET /api/students/{id} - Gets specific student data
+- PUT/PATCH /api/students/{id} - Updates specific student data
+- DELETE /api/students/{id} - Deletes specific student data
+==============================================================
 ## Thanks !!
